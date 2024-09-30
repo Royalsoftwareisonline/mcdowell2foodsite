@@ -1,0 +1,23 @@
+
+/* Mobile styles (screens smaller than 600px) */
+@media (max-width: 600px) {
+    .container {
+      grid-template-columns: 1fr; /* Single-column layout for mobile */
+    }
+  
+    .product-grid {
+      grid-template-columns: 1fr; /* 1 column for mobile */
+    }
+  
+    .header, .footer {
+      grid-column: span 1;
+    }
+  
+    .product-item {
+      text-align: center;
+    }
+  
+    .search-bar, .dropdown-menu {
+      grid-column: span 1;
+    }
+  }

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorm Food Orders</title>
+    <link rel="stylesheet" href="MeatSite.css">
+</head>
+<body>
+
+    <header>
+
+        <h1>Food Website Mockup</h1>
+        <nav>
+            <a href="MeatSite.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Request Form.html">Request Form</a>
+    </nav>
+
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search for a product...">
+        </div>
+        <div class="category-filter">
+            <label for="category">Select Category:</label>
+            <select id="category">
+                <option value="all">All</option>
+                <option value="meat">Meat</option>
+                <option value="cheese">Cheese</option>
+                <option value="chili-oil">Chili Oil</option>
+            </select>
+        </div>
+    </header>
+
+    <section id="products">
+        <!-- Product items will go here -->
+        <div class="product" data-category="meat">
+            <img src="placeholder.png" alt="Salami">
+            <h2>Salami</h2>
+            <p>(price placeholder)</p>
+            <input type="number" value="1" min="1" class="quantity">
+            <a href="disclaimer.html" class="order-button">Order</a>
+        </div>
+
+        <div class="product" data-category="cheese">
+            <img src="placeholder.png" alt="Cheese">
+            <h2>Ricotta</h2>
+            <p>(price placeholder)</p>
+            <input type="number" value="1" min="1" class="quantity">
+            <a href="disclaimer.html" class="order-button">Order</a>
+        </div>
+
+        <div class="product" data-category="chili-oil">
+            <img src="placeholder.png" alt="Chili Oil">
+            <h2>Classic Chili Oil</h2>
+            <p>(price placeholder)</p>
+            <input type="number" value="1" min="1" class="quantity">
+            <a href="disclaimer.html" class="order-button">Order</a>
+        </div>
+
+        <div class="product" data-category="chili-oil">
+            <img src="placeholder.png" alt="Chili Oil">
+            <h2>Ghost Pepper Chili Oil</h2>
+            <p>(price placeholder)</p>
+            <input type="number" value="1" min="1" class="quantity">
+            <a href="disclaimer.html" class="order-button">Order</a>
+        </div>
+
+        <div class="product" data-category="meat">
+            <img src="placeholder.png" alt="jerky">
+            <h2>Jerky</h2>
+            <p>(price placeholder)</p>
+            <input type="number" value="1" min="1" class="quantity">
+            <a href="disclaimer.html" class="order-button">Order</a>
+        </div>
+
+        <div class="product" data-category="meat">
+            <img src="placeholder.png" alt="bacon">
+            <h2>Bacon</h2>
+            <p>(price placeholder)</p>
+            <input type="number" value="1" min="1" class="quantity">
+            <a href="disclaimer.html" class="order-button">Order</a>
+    </div>
+
+    <div class="product" data-category="meat">
+        <img src="placeholder.png" alt="sausage">
+        <h2>sausage</h2>
+        <p>(price placeholder)</p>
+        <input type="number" value="1" min="1" class="quantity">
+        <a href="disclaimer.html" class="order-button">Order</a>
+</div>
+    </section>
+
+    <script src="MeatSite.js"></script>
+
+</body>
+</html>
